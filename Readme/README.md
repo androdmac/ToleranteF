@@ -1,9 +1,9 @@
-🐍 Manejo de Errores en Python - Parte 2
+#🐍 Manejo de Errores en Python - Parte 2
 
 Autor: Andrea Rodriguez Macias
 Asignatura: Computación Tolerante a Fallas
 
-🌟 Descripción
+#🌟 Descripción
 
 Este programa enseña cómo manejar errores en Python usando try-except y ZeroDivisionError.
 Incluye ejemplos interactivos para practicar manejo de errores y crear código robusto y tolerante a fallos ⚡.
