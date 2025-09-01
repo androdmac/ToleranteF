@@ -1,7 +1,7 @@
 # 📝 Gestor de Listas con Checkpointing en Python
 
 **Autor:** Andrea Rodriguez Macias  
-**Asignatura/Proyecto:** Persistencia y Tolerancia a Fallas en Python
+**Asignatura/Proyecto:** Computación Tolerante a Fallas
 
 =======
 
@@ -59,3 +59,4 @@ Ingresa la lista a eliminar: lista 1
 Reinicia el programa
 ✅ Último estado restaurado automáticamente desde el checkpoint
 ```
+
