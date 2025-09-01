@@ -28,6 +28,7 @@ print(f"✅ Número ingresado: {numero}")
 ---
 
 ### 🖥️ Ejecución esperada
+
 Ingresa un número escrito solo con letras: cuatro
 
 ✅ Número ingresado: cuatro
@@ -40,7 +41,9 @@ Ingresa un número escrito solo con letras: cuatro
 ---
 
 ### ⚠️ Manejo de errores
+
 ValueError --->	"Ingresa un número válido."
+
 ZeroDivisionError ---> "¡Ingresaste un dato no válido!, no puedes dividir entre cero"
 
 ---
