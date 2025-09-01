@@ -29,14 +29,13 @@ print(f"✅ Número ingresado: {numero}")
 
 ### 🖥️ Ejecución esperada
 
+Ejemplo 1: Número con letras
+
+📌 Pide un número escrito con letas.
+
 Ingresa un número escrito solo con letras: cuatro
 
 ✅ Número ingresado: cuatro
-
-
-➗ Ejemplo 2: División segura
-
-📌 Pide un número entero y calcula 10 / número.
 
 ---
 
@@ -62,6 +61,11 @@ except ZeroDivisionError:
 ----
 
 ### 🖥️ Ejecución esperada
+
+➗ Ejemplo 2: División segura
+
+📌 Pide un número entero y calcula 10 / número.
+
 Ingresa un número: 2
 
 ✅ El resultado es: 5.0
