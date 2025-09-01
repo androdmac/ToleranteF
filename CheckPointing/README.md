@@ -59,7 +59,3 @@ Ingresa la lista a eliminar: lista 1
 Reinicia el programa
 ✅ Último estado restaurado automáticamente desde el checkpoint
 ```
-
-=======
-
-## 💻 Muestra Previa
