@@ -12,7 +12,8 @@ Este proyecto enseña cómo manejar errores en Python usando `try-except` y `Zer
 ---
 
 ## ✍️ Ejemplo 1: Número con letras
-📌 Solicita al usuario un número escrito solo con letras (ej. `uno`, `dos`).  
+📌 Solicita al usuario un número escrito solo con letras (ej. `uno`, `dos`). 
+
 ❗ Si se ingresa un valor inválido, se lanza un `ValueError` personalizado.
 
 ### 💻 Código de ejemplo
@@ -28,14 +29,19 @@ print(f"✅ Número ingresado: {numero}")
 
 ### 🖥️ Ejecución esperada
 Ingresa un número escrito solo con letras: cuatro
+
 ✅ Número ingresado: cuatro
+
+
 ➗ Ejemplo 2: División segura
+
 📌 Pide un número entero y calcula 10 / número.
 
+---
+
 ### ⚠️ Manejo de errores
-Error	Mensaje mostrado
-ValueError	"Ingresa un número válido."
-ZeroDivisionError	"¡Ingresaste un dato no válido!, no puedes dividir entre cero"
+ValueError --->	"Ingresa un número válido."
+ZeroDivisionError ---> "¡Ingresaste un dato no válido!, no puedes dividir entre cero"
 
 ---
 
@@ -54,12 +60,14 @@ except ZeroDivisionError:
 
 ### 🖥️ Ejecución esperada
 Ingresa un número: 2
+
 ✅ El resultado es: 5.0
 
 ---
 
 ### 🏃‍♂️ Cómo funciona
-Paso	Descripción
-Try	Ejecuta el bloque de código que puede generar errores.
-Except	Captura y maneja errores según su tipo, mostrando mensajes claros.
-Continuidad	El programa sigue funcionando normalmente a pesar de entradas inválidas.
+Try	---> Ejecuta el bloque de código que puede generar errores.
+
+Except ---> Captura y maneja errores según su tipo, mostrando mensajes claros.
+
+Continuidad	---> El programa sigue funcionando normalmente a pesar de entradas inválidas.
