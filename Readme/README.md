@@ -1,4 +1,4 @@
-#🐍 Manejo de Errores en Python - Parte 2
+##🐍 Manejo de Errores en Python - Parte 2
 
 Autor: Andrea Rodriguez Macias
 Asignatura: Computación Tolerante a Fallas
