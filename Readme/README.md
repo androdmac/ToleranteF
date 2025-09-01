@@ -1,44 +1,65 @@
-##🐍 Manejo de Errores en Python - Parte 2
+# 🐍 Manejo de Errores en Python - Parte 2
 
-Autor: Andrea Rodriguez Macias
-Asignatura: Computación Tolerante a Fallas
+**Autor:** Andrea Rodríguez Macías  
+**Asignatura:** Computación Tolerante a Fallas
 
-#🌟 Descripción
+---
 
-Este programa enseña cómo manejar errores en Python usando try-except y ZeroDivisionError.
-Incluye ejemplos interactivos para practicar manejo de errores y crear código robusto y tolerante a fallos ⚡.
+## 🌟 Descripción
 
-✍️ Ejemplo 1: Número con letras
+Este proyecto enseña cómo manejar errores en Python usando `try-except` y `ZeroDivisionError`. Incluye ejemplos interactivos para practicar la creación de **programas robustos y tolerantes a fallos** ⚡.
 
-📌 Solicita al usuario un número escrito solo con letras (ej. uno, dos).
-❗ Si se ingresa un valor inválido, se lanza un ValueError personalizado.
+---
 
-Ingresa un numero escrito solo con letras: cuatro
+## ✍️ Ejemplo 1: Número con letras
+📌 Solicita al usuario un número escrito solo con letras (ej. `uno`, `dos`).  
+❗ Si se ingresa un valor inválido, se lanza un `ValueError` personalizado.
+
+### 💻 Código de ejemplo
+```
+numero = input("Ingresa un número escrito solo con letras: ")
+# Validación personalizada
+if not numero.isalpha():
+    raise ValueError("¡Ingresa un número válido escrito en letras!")
+print(f"✅ Número ingresado: {numero}") 
+```
+
+---
+
+### 🖥️ Ejecución esperada
+Ingresa un número escrito solo con letras: cuatro
 ✅ Número ingresado: cuatro
-
 ➗ Ejemplo 2: División segura
+📌 Pide un número entero y calcula 10 / número.
 
-📌 Pide un número entero y calcula 10 / numero.
-Manejo de errores específico:
-
+### ⚠️ Manejo de errores
 Error	Mensaje mostrado
 ValueError	"Ingresa un número válido."
 ZeroDivisionError	"¡Ingresaste un dato no válido!, no puedes dividir entre cero"
-Ingresa un numero: 2
+
+---
+
+### 💻 Código de ejemplo
+```
+try:
+    numero = int(input("Ingresa un número: "))
+    resultado = 10 / numero
+    print(f"✅ El resultado es: {resultado}")
+except ValueError:
+    print("Ingresa un número válido.")
+except ZeroDivisionError:
+    print("¡Ingresaste un dato no válido!, no puedes dividir entre cero")
+```
+----
+
+### 🖥️ Ejecución esperada
+Ingresa un número: 2
 ✅ El resultado es: 5.0
 
-🏃‍♂️ Cómo funciona
+---
 
-Intento de ejecución (try): El programa ejecuta el bloque de código que puede generar errores.
-
-Captura de errores (except): Se manejan los errores según su tipo, mostrando mensajes claros.
-
-Continuidad: El programa no se detiene ante entradas inválidas y sigue funcionando normalmente.
-
-💡 Notas
-
-try-except permite escribir programas robustos y tolerantes a fallos.
-
-Se pueden usar múltiples except para manejar distintos tipos de errores.
-
-Los mensajes de error personalizados ayudan a que el usuario entienda lo que hizo mal.
+### 🏃‍♂️ Cómo funciona
+Paso	Descripción
+Try	Ejecuta el bloque de código que puede generar errores.
+Except	Captura y maneja errores según su tipo, mostrando mensajes claros.
+Continuidad	El programa sigue funcionando normalmente a pesar de entradas inválidas.
