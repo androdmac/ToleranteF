@@ -1,5 +1,5 @@
 <p align="center">
-#  **(Par. 1) Otras herramientas para el manejar errores** 
+# (Par. 1) Otras herramientas para el manejar errores
   
 Computación Tolerante a Fallas 2026A
 Andrea Rodríguez Macias
