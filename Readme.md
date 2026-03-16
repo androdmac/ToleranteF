@@ -1,11 +1,11 @@
-<p align="center">
+
 # (Par. 1) Otras herramientas para el manejar errores
   
-Computación Tolerante a Fallas 2026A
-Andrea Rodríguez Macias
-Centro Universitario de Ciencias Exactas e Ingenierías CUCEI, Ingeniería en Computación, Guadalajara, Jalisco
-andrea.rodriguez5028@alumnos.udg.mx
-</p>
+                                      Computación Tolerante a Fallas 2026A
+                                            Andrea Rodríguez Macias
+          Centro Universitario de Ciencias Exactas e Ingenierías CUCEI, Ingeniería en Computación, Guadalajara, Jalisco
+                                      andrea.rodriguez5028@alumnos.udg.mx
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
